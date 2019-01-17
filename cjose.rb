@@ -6,6 +6,7 @@ class Cjose < Formula
 
   depends_on 'pkg-config' => :build
   depends_on 'openssl'
+  depends_on 'jansson'
 
   def install
 	args = %W[
